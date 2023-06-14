@@ -10,9 +10,8 @@ enum Sections: Int {
 
 class HomeViewController: UIViewController  {
     private var randomTrendingMovie: Title?
-    private var headerView: HeroHeaderUIView?
-    let sectionTitles: [String] = ["热门电影", "热门影视", "Popular", "Upcoming Movies", "Top rated"]
-    
+    private var bannerUIView: BannerUIView?
+    let sectionTitles: [String] = ["热门电影", "热门影视", "流行电影", "即将上映", "高分电影"]
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
@@ -27,8 +26,8 @@ class HomeViewController: UIViewController  {
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         configureNavbar()
-        headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
-        homeFeedTable.tableHeaderView = headerView
+        bannerUIView = BannerUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 280))
+        homeFeedTable.tableHeaderView = bannerUIView
         configureHeroHeaderView()
     }
     
@@ -38,7 +37,7 @@ class HomeViewController: UIViewController  {
             case .success(let titles):
                 let selectedTitle = titles.randomElement()
                 self?.randomTrendingMovie = selectedTitle
-                self?.headerView?.configure(with: TitleViewModel(titleName: selectedTitle?.original_title ?? "", posterURL: selectedTitle?.poster_path ?? ""))
+                self?.bannerUIView?.configure(with: TitleViewModel(titleName: selectedTitle?.original_title ?? "", posterURL: selectedTitle?.poster_path ?? ""))
             case .failure(let erorr):
                 print(erorr.localizedDescription)
             }
@@ -49,10 +48,10 @@ class HomeViewController: UIViewController  {
         var image = UIImage(named: "netflixLogo")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
-        navigationItem.rightBarButtonItems = [
-            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
-            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
-        ]
+//        navigationItem.rightBarButtonItems = [
+//            UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
+//            UIBarButtonItem(image: UIImage(systemName: "play.rectangle"), style: .done, target: self, action: nil)
+//        ]
         navigationController?.navigationBar.tintColor = .white
     }
     
@@ -140,7 +139,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         guard let header = view as? UITableViewHeaderFooterView else {return}
         header.textLabel?.font = .systemFont(ofSize: 18, weight: .semibold)
         header.textLabel?.frame = CGRect(x: header.bounds.origin.x + 20, y: header.bounds.origin.y, width: 100, height: header.bounds.height)
-        header.textLabel?.textColor = .white
+        header.textLabel?.textColor = .black
         header.textLabel?.text = header.textLabel?.text?.capitalizeFirstLetter()
     }
     

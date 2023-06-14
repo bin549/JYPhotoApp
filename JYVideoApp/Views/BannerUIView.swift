@@ -1,11 +1,11 @@
 import UIKit
 
-class HeroHeaderUIView: UIView {
-    private let heroImageView: UIImageView = {
+class BannerUIView: UIView {
+    private let bannerUIView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "heroImage")
+//        imageView.image = UIImage(named: "Image")
         return imageView
     }()
 
@@ -13,7 +13,8 @@ class HeroHeaderUIView: UIView {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [
             UIColor.clear.cgColor,
-            UIColor.systemBackground.cgColor
+            UIColor.clear.cgColor
+//            UIColor.systemBackground.cgColor
         ]
         gradientLayer.frame = bounds
         layer.addSublayer(gradientLayer)
@@ -21,7 +22,7 @@ class HeroHeaderUIView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        addSubview(heroImageView)
+        addSubview(bannerUIView)
         addGradient()
     }
     
@@ -29,12 +30,12 @@ class HeroHeaderUIView: UIView {
         guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model.posterURL)") else {
             return
         }
-        heroImageView.sd_setImage(with: url, completed: nil)
+        bannerUIView.sd_setImage(with: url, completed: nil)
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        heroImageView.frame = bounds
+        bannerUIView.frame = bounds
     }
     
     required init?(coder: NSCoder) {

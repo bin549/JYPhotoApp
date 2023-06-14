@@ -16,7 +16,7 @@
 		DD1C05142A383BA10000DFAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C05132A383BA10000DFAC /* HomeViewController.swift */; };
 		DD1C05162A383C1B0000DFAC /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C05152A383C1B0000DFAC /* UpcomingViewController.swift */; };
 		DD1C05182A383C270000DFAC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C05172A383C270000DFAC /* SearchViewController.swift */; };
-		DD1C051A2A383C340000DFAC /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C05192A383C340000DFAC /* DownloadsViewController.swift */; };
+		DD1C051A2A383C340000DFAC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C05192A383C340000DFAC /* ProfileViewController.swift */; };
 		DD41032D2A3981EA004FFF67 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DD41032C2A3981EA004FFF67 /* SDWebImage */; };
 		DD41032F2A3981EA004FFF67 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DD41032E2A3981EA004FFF67 /* SDWebImageMapKit */; };
 		DD4103322A398754004FFF67 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103312A398754004FFF67 /* TitleViewModel.swift */; };
@@ -25,8 +25,10 @@
 		DD41033A2A398A59004FFF67 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103392A398A59004FFF67 /* TitlePreviewViewController.swift */; };
 		DD41033C2A398A93004FFF67 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033B2A398A93004FFF67 /* YoutubeSearchResponse.swift */; };
 		DD41033E2A39A6AB004FFF67 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033D2A39A6AB004FFF67 /* SearchResultsViewController.swift */; };
+		DD4103402A39F4EB004FFF67 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */; };
+		DD4103422A39F50D004FFF67 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103412A39F50D004FFF67 /* ProfileCell.swift */; };
 		DDD20E912A395335007C56BD /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */; };
-		DDD20E932A3957C9007C56BD /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E922A3957C8007C56BD /* HeroHeaderUIView.swift */; };
+		DDD20E932A3957C9007C56BD /* BannerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E922A3957C8007C56BD /* BannerUIView.swift */; };
 		DDD20E962A3963FF007C56BD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E952A3963FF007C56BD /* APICaller.swift */; };
 		DDD20E992A396558007C56BD /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E982A396558007C56BD /* Title.swift */; };
 		DDD20E9C2A396663007C56BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E9B2A396663007C56BD /* Extensions.swift */; };
@@ -45,15 +47,17 @@
 		DD1C05132A383BA10000DFAC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DD1C05152A383C1B0000DFAC /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		DD1C05172A383C270000DFAC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		DD1C05192A383C340000DFAC /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		DD1C05192A383C340000DFAC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DD4103312A398754004FFF67 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		DD4103332A398769004FFF67 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		DD4103352A398988004FFF67 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		DD4103392A398A59004FFF67 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		DD41033B2A398A93004FFF67 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		DD41033D2A39A6AB004FFF67 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		DD4103412A39F50D004FFF67 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
-		DDD20E922A3957C8007C56BD /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		DDD20E922A3957C8007C56BD /* BannerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerUIView.swift; sourceTree = "<group>"; };
 		DDD20E952A3963FF007C56BD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		DDD20E982A396558007C56BD /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		DDD20E9B2A396663007C56BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -131,7 +135,7 @@
 				DD1C05132A383BA10000DFAC /* HomeViewController.swift */,
 				DD1C05152A383C1B0000DFAC /* UpcomingViewController.swift */,
 				DD1C05172A383C270000DFAC /* SearchViewController.swift */,
-				DD1C05192A383C340000DFAC /* DownloadsViewController.swift */,
+				DD1C05192A383C340000DFAC /* ProfileViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -149,9 +153,11 @@
 			isa = PBXGroup;
 			children = (
 				DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */,
-				DDD20E922A3957C8007C56BD /* HeroHeaderUIView.swift */,
+				DDD20E922A3957C8007C56BD /* BannerUIView.swift */,
 				DDD20E9D2A396720007C56BD /* TitleCollectionViewCell.swift */,
 				DD4103352A398988004FFF67 /* TitleTableViewCell.swift */,
+				DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */,
+				DD4103412A39F50D004FFF67 /* ProfileCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,11 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1C05162A383C1B0000DFAC /* UpcomingViewController.swift in Sources */,
-				DDD20E932A3957C9007C56BD /* HeroHeaderUIView.swift in Sources */,
+				DDD20E932A3957C9007C56BD /* BannerUIView.swift in Sources */,
 				DDD20E992A396558007C56BD /* Title.swift in Sources */,
 				DD41033C2A398A93004FFF67 /* YoutubeSearchResponse.swift in Sources */,
+				DD4103422A39F50D004FFF67 /* ProfileCell.swift in Sources */,
+				DD4103402A39F4EB004FFF67 /* ProfileHeaderView.swift in Sources */,
 				DD1C05182A383C270000DFAC /* SearchViewController.swift in Sources */,
-				DD1C051A2A383C340000DFAC /* DownloadsViewController.swift in Sources */,
+				DD1C051A2A383C340000DFAC /* ProfileViewController.swift in Sources */,
 				DD4103362A398988004FFF67 /* TitleTableViewCell.swift in Sources */,
 				DD1C05142A383BA10000DFAC /* HomeViewController.swift in Sources */,
 				DD4103342A398769004FFF67 /* TitlePreviewViewModel.swift in Sources */,

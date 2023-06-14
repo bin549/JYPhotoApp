@@ -5,4 +5,3 @@ struct TitlePreviewViewModel {
     let youtubeView: VideoElement
     let titleOverview: String
 }
-	

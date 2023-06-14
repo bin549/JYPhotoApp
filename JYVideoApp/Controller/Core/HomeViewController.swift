@@ -8,10 +8,10 @@ enum Sections: Int {
     case TopRated = 4
 }
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController  {
     private var randomTrendingMovie: Title?
     private var headerView: HeroHeaderUIView?
-    let sectionTitles: [String] = ["Trending Movies", "Trending Tv", "Popular", "Upcoming Movies", "Top rated"]
+    let sectionTitles: [String] = ["热门电影", "热门影视", "Popular", "Upcoming Movies", "Top rated"]
     
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "首页"
         view.backgroundColor = .systemBackground
         view.addSubview(homeFeedTable)
         homeFeedTable.delegate = self
@@ -43,7 +44,7 @@ class HomeViewController: UIViewController {
             }
         }
     }
-    
+
     private func configureNavbar() {
         var image = UIImage(named: "netflixLogo")
         image = image?.withRenderingMode(.alwaysOriginal)
@@ -74,7 +75,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as? CollectionViewTableViewCell else {
             return UITableViewCell()
         }
-//        cell.delegate = self
+        cell.delegate = self
         switch indexPath.section {
         case Sections.TrendingMovies.rawValue:
             APICaller.shared.getTrendingMovies { result in

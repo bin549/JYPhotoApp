@@ -3,15 +3,13 @@ import UIKit
 enum Sections: Int {
     case TrendingMovies = 0
     case TrendingTv = 1
-    case Popular = 2
-    case Upcoming = 3
-    case TopRated = 4
+    case TopRated = 2
 }
 
 class HomeViewController: UIViewController  {
     private var randomTrendingMovie: Title?
     private var bannerUIView: BannerUIView?
-    let sectionTitles: [String] = ["热门电影", "热门影视", "流行电影", "即将上映", "高分电影"]
+    let sectionTitles: [String] = ["热门电影", "热门影视", "高分电影"]
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
@@ -87,24 +85,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             }
         case Sections.TrendingTv.rawValue:
             APICaller.shared.getTrendingTvs { result in
-                switch result {
-                case .success(let titles):
-                    cell.configure(with: titles)
-                case .failure(let error):
-                    print(error.localizedDescription)
-                }
-            }
-        case Sections.Popular.rawValue:
-            APICaller.shared.getPopular { result in
-                switch result {
-                case .success(let titles):
-                    cell.configure(with: titles)
-                case .failure(let error):
-                    print(error.localizedDescription)
-                }
-            }
-        case Sections.Upcoming.rawValue:
-            APICaller.shared.getUpcomingMovies { result in
                 switch result {
                 case .success(let titles):
                     cell.configure(with: titles)

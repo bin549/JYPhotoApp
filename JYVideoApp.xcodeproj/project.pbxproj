@@ -25,8 +25,16 @@
 		DD41033A2A398A59004FFF67 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103392A398A59004FFF67 /* TitlePreviewViewController.swift */; };
 		DD41033C2A398A93004FFF67 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033B2A398A93004FFF67 /* YoutubeSearchResponse.swift */; };
 		DD41033E2A39A6AB004FFF67 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033D2A39A6AB004FFF67 /* SearchResultsViewController.swift */; };
-		DD4103402A39F4EB004FFF67 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */; };
-		DD4103422A39F50D004FFF67 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103412A39F50D004FFF67 /* ProfileCell.swift */; };
+		DD4103442A3A04D2004FFF67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103432A3A04D2004FFF67 /* LoginViewController.swift */; };
+		DD4103462A3A0557004FFF67 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103452A3A0557004FFF67 /* AuthHeaderView.swift */; };
+		DD41034A2A3A0761004FFF67 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103492A3A0761004FFF67 /* CustomTextField.swift */; };
+		DD41034C2A3A0771004FFF67 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41034B2A3A0771004FFF67 /* CustomButton.swift */; };
+		DD41034E2A3A0850004FFF67 /* SignInUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD41034D2A3A0850004FFF67 /* SignInUserRequest.swift */; };
+		DD4103512A3A08A7004FFF67 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103502A3A08A7004FFF67 /* AlertManager.swift */; };
+		DD4103532A3A08DD004FFF67 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4103522A3A08DD004FFF67 /* Validator.swift */; };
+		DDC6EBED2A3A0F2E00934EA0 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6EBEC2A3A0F2E00934EA0 /* RegisterController.swift */; };
+		DDC6EBEF2A3A0F3700934EA0 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6EBEE2A3A0F3700934EA0 /* ForgotPasswordController.swift */; };
+		DDC6EBF12A3A125F00934EA0 /* Fx5yoRHakAIc8ea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDC6EBF02A3A125F00934EA0 /* Fx5yoRHakAIc8ea.jpg */; };
 		DDD20E912A395335007C56BD /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */; };
 		DDD20E932A3957C9007C56BD /* BannerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E922A3957C8007C56BD /* BannerUIView.swift */; };
 		DDD20E962A3963FF007C56BD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E952A3963FF007C56BD /* APICaller.swift */; };
@@ -54,8 +62,16 @@
 		DD4103392A398A59004FFF67 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		DD41033B2A398A93004FFF67 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		DD41033D2A39A6AB004FFF67 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
-		DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
-		DD4103412A39F50D004FFF67 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		DD4103432A3A04D2004FFF67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD4103452A3A0557004FFF67 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		DD4103492A3A0761004FFF67 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DD41034B2A3A0771004FFF67 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DD41034D2A3A0850004FFF67 /* SignInUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUserRequest.swift; sourceTree = "<group>"; };
+		DD4103502A3A08A7004FFF67 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		DD4103522A3A08DD004FFF67 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		DDC6EBEC2A3A0F2E00934EA0 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		DDC6EBEE2A3A0F3700934EA0 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		DDC6EBF02A3A125F00934EA0 /* Fx5yoRHakAIc8ea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fx5yoRHakAIc8ea.jpg; sourceTree = "<group>"; };
 		DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		DDD20E922A3957C8007C56BD /* BannerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerUIView.swift; sourceTree = "<group>"; };
 		DDD20E952A3963FF007C56BD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 		DD1C04FA2A3838F30000DFAC /* JYVideoApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD41034F2A3A0884004FFF67 /* Utils */,
 				DD4103302A398744004FFF67 /* ViewModels */,
 				DDD20E9A2A396654007C56BD /* Resources */,
 				DDD20E972A396544007C56BD /* Models */,
@@ -103,6 +120,7 @@
 				DDD20E8F2A3952FB007C56BD /* Views */,
 				DD1C05122A383B950000DFAC /* Controller */,
 				DD1C05072A3838F40000DFAC /* Assets.xcassets */,
+				DDC6EBF02A3A125F00934EA0 /* Fx5yoRHakAIc8ea.jpg */,
 				DD1C05092A3838F40000DFAC /* LaunchScreen.storyboard */,
 				DD1C050C2A3838F40000DFAC /* Info.plist */,
 				DD1C05042A3838F30000DFAC /* JYVideoApp.xcdatamodeld */,
@@ -136,6 +154,9 @@
 				DD1C05152A383C1B0000DFAC /* UpcomingViewController.swift */,
 				DD1C05172A383C270000DFAC /* SearchViewController.swift */,
 				DD1C05192A383C340000DFAC /* ProfileViewController.swift */,
+				DD4103432A3A04D2004FFF67 /* LoginViewController.swift */,
+				DDC6EBEC2A3A0F2E00934EA0 /* RegisterController.swift */,
+				DDC6EBEE2A3A0F3700934EA0 /* ForgotPasswordController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -149,6 +170,15 @@
 			path = General;
 			sourceTree = "<group>";
 		};
+		DD41034F2A3A0884004FFF67 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD4103502A3A08A7004FFF67 /* AlertManager.swift */,
+				DD4103522A3A08DD004FFF67 /* Validator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DDD20E8F2A3952FB007C56BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +186,9 @@
 				DDD20E922A3957C8007C56BD /* BannerUIView.swift */,
 				DDD20E9D2A396720007C56BD /* TitleCollectionViewCell.swift */,
 				DD4103352A398988004FFF67 /* TitleTableViewCell.swift */,
-				DD41033F2A39F4EB004FFF67 /* ProfileHeaderView.swift */,
-				DD4103412A39F50D004FFF67 /* ProfileCell.swift */,
+				DD4103452A3A0557004FFF67 /* AuthHeaderView.swift */,
+				DD4103492A3A0761004FFF67 /* CustomTextField.swift */,
+				DD41034B2A3A0771004FFF67 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +206,7 @@
 			children = (
 				DDD20E982A396558007C56BD /* Title.swift */,
 				DD41033B2A398A93004FFF67 /* YoutubeSearchResponse.swift */,
+				DD41034D2A3A0850004FFF67 /* SignInUserRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -254,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC6EBF12A3A125F00934EA0 /* Fx5yoRHakAIc8ea.jpg in Resources */,
 				DD1C050B2A3838F40000DFAC /* LaunchScreen.storyboard in Resources */,
 				DD1C05082A3838F40000DFAC /* Assets.xcassets in Resources */,
 			);
@@ -266,12 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4103442A3A04D2004FFF67 /* LoginViewController.swift in Sources */,
+				DDC6EBEF2A3A0F3700934EA0 /* ForgotPasswordController.swift in Sources */,
+				DD4103532A3A08DD004FFF67 /* Validator.swift in Sources */,
 				DD1C05162A383C1B0000DFAC /* UpcomingViewController.swift in Sources */,
 				DDD20E932A3957C9007C56BD /* BannerUIView.swift in Sources */,
+				DD4103462A3A0557004FFF67 /* AuthHeaderView.swift in Sources */,
+				DD41034A2A3A0761004FFF67 /* CustomTextField.swift in Sources */,
 				DDD20E992A396558007C56BD /* Title.swift in Sources */,
 				DD41033C2A398A93004FFF67 /* YoutubeSearchResponse.swift in Sources */,
-				DD4103422A39F50D004FFF67 /* ProfileCell.swift in Sources */,
-				DD4103402A39F4EB004FFF67 /* ProfileHeaderView.swift in Sources */,
 				DD1C05182A383C270000DFAC /* SearchViewController.swift in Sources */,
 				DD1C051A2A383C340000DFAC /* ProfileViewController.swift in Sources */,
 				DD4103362A398988004FFF67 /* TitleTableViewCell.swift in Sources */,
@@ -283,10 +319,14 @@
 				DDD20E912A395335007C56BD /* CollectionViewTableViewCell.swift in Sources */,
 				DDD20E9C2A396663007C56BD /* Extensions.swift in Sources */,
 				DD1C04FC2A3838F30000DFAC /* AppDelegate.swift in Sources */,
+				DD4103512A3A08A7004FFF67 /* AlertManager.swift in Sources */,
 				DDD20E962A3963FF007C56BD /* APICaller.swift in Sources */,
 				DD41033A2A398A59004FFF67 /* TitlePreviewViewController.swift in Sources */,
+				DD41034C2A3A0771004FFF67 /* CustomButton.swift in Sources */,
 				DD1C05062A3838F30000DFAC /* JYVideoApp.xcdatamodeld in Sources */,
+				DDC6EBED2A3A0F2E00934EA0 /* RegisterController.swift in Sources */,
 				DD1C04FE2A3838F30000DFAC /* SceneDelegate.swift in Sources */,
+				DD41034E2A3A0850004FFF67 /* SignInUserRequest.swift in Sources */,
 				DD4103322A398754004FFF67 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

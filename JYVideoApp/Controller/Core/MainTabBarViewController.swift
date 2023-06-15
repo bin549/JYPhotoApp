@@ -13,7 +13,7 @@ class MainTabBarViewController: UITabBarController {
         vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
         vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         vc1.title = "首页"
-        vc2.title = "预告片"
+        vc2.title = "最新上映"
         vc3.title = "搜索结果"
         vc4.title = "个人中心"
         tabBar.tintColor = .label

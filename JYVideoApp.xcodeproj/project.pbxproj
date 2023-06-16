@@ -41,6 +41,7 @@
 		DDD20E992A396558007C56BD /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E982A396558007C56BD /* Title.swift */; };
 		DDD20E9C2A396663007C56BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E9B2A396663007C56BD /* Extensions.swift */; };
 		DDD20E9E2A396720007C56BD /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD20E9D2A396720007C56BD /* TitleCollectionViewCell.swift */; };
+		DDE980B72A3C79B80006F925 /* LinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE980B62A3C79B80006F925 /* LinkButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		DDD20E982A396558007C56BD /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		DDD20E9B2A396663007C56BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DDD20E9D2A396720007C56BD /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		DDE980B62A3C79B80006F925 /* LinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		DDD20E8F2A3952FB007C56BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DDE980B62A3C79B80006F925 /* LinkButton.swift */,
 				DDD20E902A395335007C56BD /* CollectionViewTableViewCell.swift */,
 				DDD20E922A3957C8007C56BD /* BannerUIView.swift */,
 				DDD20E9D2A396720007C56BD /* TitleCollectionViewCell.swift */,
@@ -326,6 +329,7 @@
 				DD1C05062A3838F30000DFAC /* JYVideoApp.xcdatamodeld in Sources */,
 				DDC6EBED2A3A0F2E00934EA0 /* RegisterController.swift in Sources */,
 				DD1C04FE2A3838F30000DFAC /* SceneDelegate.swift in Sources */,
+				DDE980B72A3C79B80006F925 /* LinkButton.swift in Sources */,
 				DD41034E2A3A0850004FFF67 /* SignInUserRequest.swift in Sources */,
 				DD4103322A398754004FFF67 /* TitleViewModel.swift in Sources */,
 			);

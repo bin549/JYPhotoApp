@@ -1,6 +1,6 @@
 import UIKit
 
-class CustomButton: UIButton {
+class LinkButton: UIButton {
     enum FontSize {
         case big
         case med
@@ -11,11 +11,9 @@ class CustomButton: UIButton {
         super.init(frame: .zero)
         self.setTitle(title, for: .normal)
         self.layer.cornerRadius = 15
-        self.layer.borderColor = UIColor.black.cgColor
-        self.layer.borderWidth = 1
         self.layer.masksToBounds = true
-        self.backgroundColor = hasBackground ? .black : .black
-        let titleColor: UIColor = hasBackground ? .white : .white
+        self.backgroundColor = hasBackground ? .white : .clear
+        let titleColor: UIColor = hasBackground ? .gray : .gray
         self.setTitleColor(titleColor, for: .normal)
         switch fontSize {
         case .big:

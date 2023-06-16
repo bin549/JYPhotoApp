@@ -20,19 +20,30 @@ class CustomTextField: UITextField {
         self.autocorrectionType = .no
         self.autocapitalizationType = .none
         self.leftViewMode = .always
-        self.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: self.frame.size.height))
+//        self.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: self.frame.size.height))
+        
+        let imageView = UIImageView()
+        let usernameImage = UIImage(named: "user")
+        let emailImage = UIImage(named: "mail")
+        let passwordImage = UIImage(named: "lock")
         switch fieldType {
         case .username:
             self.placeholder = "用户名"
+            imageView.image = usernameImage
         case .email:
             self.placeholder = "邮箱"
+            imageView.image = emailImage
             self.keyboardType = .emailAddress
             self.textContentType = .emailAddress
         case .password:
             self.placeholder = "密码"
+            imageView.image = passwordImage
             self.textContentType = .oneTimeCode
             self.isSecureTextEntry = true
         }
+        imageView.frame = CGRect(x:5, y:0, width: self.frame.width, height: self.frame.height)
+        self.leftView = imageView
+        
     }
     
     required init?(coder: NSCoder) {

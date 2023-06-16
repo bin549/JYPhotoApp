@@ -11,6 +11,8 @@ class CustomButton: UIButton {
         super.init(frame: .zero)
         self.setTitle(title, for: .normal)
         self.layer.cornerRadius = 12
+        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderWidth = 1
         self.layer.masksToBounds = true
         self.backgroundColor = hasBackground ? .white : .clear
         let titleColor: UIColor = hasBackground ? .gray : .gray

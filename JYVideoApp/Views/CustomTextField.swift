@@ -13,6 +13,8 @@ class CustomTextField: UITextField {
         self.authFieldType = fieldType
         super.init(frame: .zero)
         self.backgroundColor = .secondarySystemBackground
+        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderWidth = 2
         self.layer.cornerRadius = 10
         self.returnKeyType = .done
         self.autocorrectionType = .no

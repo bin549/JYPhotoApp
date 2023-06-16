@@ -22,7 +22,7 @@ class LoginViewController: UIViewController {
     }
     
     private func setupUI() {
-        self.view.backgroundColor = .systemGray3
+        self.view.backgroundColor = .white
         self.view.addSubview(headerView)
         self.view.addSubview(emailField)
         self.view.addSubview(passwordField)
@@ -43,15 +43,15 @@ class LoginViewController: UIViewController {
             self.emailField.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 12),
             self.emailField.centerXAnchor.constraint(equalTo: headerView.centerXAnchor),
             self.emailField.heightAnchor.constraint(equalToConstant: 55),
-            self.emailField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85),
+            self.emailField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.95),
             self.passwordField.topAnchor.constraint(equalTo: emailField.bottomAnchor, constant: 22),
             self.passwordField.centerXAnchor.constraint(equalTo: headerView.centerXAnchor),
             self.passwordField.heightAnchor.constraint(equalToConstant: 55),
-            self.passwordField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85),
+            self.passwordField.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.95),
             self.signInButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 22),
             self.signInButton.centerXAnchor.constraint(equalTo: headerView.centerXAnchor),
             self.signInButton.heightAnchor.constraint(equalToConstant: 55),
-            self.signInButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85),
+            self.signInButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.95),
             self.newUserButton.topAnchor.constraint(equalTo: signInButton.bottomAnchor, constant: 11),
             self.newUserButton.centerXAnchor.constraint(equalTo: headerView.centerXAnchor),
             self.newUserButton.heightAnchor.constraint(equalToConstant: 44),

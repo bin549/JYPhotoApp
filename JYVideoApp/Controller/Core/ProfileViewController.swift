@@ -3,7 +3,7 @@ import UIKit
 class ProfileViewController: UIViewController {
     let profileImageView: UIImageView = {
         let iv = UIImageView()
-        iv.image = #imageLiteral(resourceName: "Fx5yoRHakAIc8ea")
+        iv.image = #imageLiteral(resourceName: "WechatIMG719")
         iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
         iv.layer.borderWidth = 3

@@ -13,8 +13,7 @@ class BannerUIView: UIView {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [
             UIColor.clear.cgColor,
-            UIColor.clear.cgColor
-//            UIColor.systemBackground.cgColor
+            UIColor.systemBackground.cgColor
         ]
         gradientLayer.frame = bounds
         layer.addSublayer(gradientLayer)

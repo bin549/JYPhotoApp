@@ -11,7 +11,7 @@ class MainTabBarViewController: UITabBarController {
         vc1.tabBarItem.image = UIImage(systemName: "house")
         vc2.tabBarItem.image = UIImage(systemName: "play.circle")
         vc3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
-        vc4.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
+        vc4.tabBarItem.image = UIImage(systemName: "person.crop.square")
         vc1.title = "首页"
         vc2.title = "最新上映"
         vc3.title = "搜索结果"

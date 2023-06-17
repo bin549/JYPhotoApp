@@ -31,7 +31,7 @@ class ProfileHeader: UICollectionReusableView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .systemGray4
+        backgroundColor = .systemGray
         addSubview(profileImageView)
         profileImageView.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         profileImageView.anchor(top: topAnchor, paddingTop: 88,
